@@ -1,0 +1,48 @@
+{
+  "intent": "calculation",
+  "fop_group": 3,
+  "vat_payer": false,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [
+    {
+      "date": "2026-07-12",
+      "amount": 900.0,
+      "currency": "EUR",
+      "direction": "incoming",
+      "counterparty_type": "client_nonresident",
+      "description": "Klient GmbH"
+    },
+    {
+      "date": "2026-08-28",
+      "amount": 1200.0,
+      "currency": "EUR",
+      "direction": "incoming",
+      "counterparty_type": "client_nonresident",
+      "description": null
+    },
+    {
+      "date": "2026-09-19",
+      "amount": 600.0,
+      "currency": "USD",
+      "direction": "incoming",
+      "counterparty_type": "client_nonresident",
+      "description": "Upwork, після комісії 60 USD"
+    },
+    {
+      "date": "2026-09-02",
+      "amount": 38000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ФОП Сидоренко"
+    }
+  ],
+  "topics": [
+    "tax_amount"
+  ],
+  "language": "uk",
+  "missing_fields": []
+}

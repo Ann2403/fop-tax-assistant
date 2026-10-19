@@ -1,0 +1,41 @@
+{
+  "intent": "declaration_prep",
+  "fop_group": 3,
+  "vat_payer": false,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [
+    {
+      "date": "2026-08-09",
+      "amount": 15000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "individual",
+      "description": "«повернення позики» від Петренка І."
+    },
+    {
+      "date": "2026-07-14",
+      "amount": 60000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ТОВ «Гамма Трейд»"
+    },
+    {
+      "date": "2026-09-18",
+      "amount": 40000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ТОВ «Гамма Трейд»"
+    }
+  ],
+  "topics": [
+    "income_classification",
+    "declaration"
+  ],
+  "language": "uk",
+  "missing_fields": []
+}

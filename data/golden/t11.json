@@ -1,0 +1,18 @@
+{
+  "intent": "calculation",
+  "fop_group": null,
+  "vat_payer": null,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [],
+  "topics": [
+    "esv",
+    "tax_amount"
+  ],
+  "language": "uk",
+  "missing_fields": [
+    "fop_group"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "intent": "tax_question",
+  "fop_group": null,
+  "vat_payer": null,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [
+    {
+      "date": "2026-10-17",
+      "amount": 5707.02,
+      "currency": "UAH",
+      "direction": "outgoing",
+      "counterparty_type": "tax_authority",
+      "description": "сплата ЄСВ за 3 квартал"
+    }
+  ],
+  "topics": [
+    "esv"
+  ],
+  "language": "ru",
+  "missing_fields": []
+}

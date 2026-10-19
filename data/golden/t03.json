@@ -1,0 +1,13 @@
+{
+  "intent": "tax_question",
+  "fop_group": 2,
+  "vat_payer": null,
+  "period": null,
+  "transactions": [],
+  "topics": [
+    "group_rules",
+    "currency"
+  ],
+  "language": "ru",
+  "missing_fields": []
+}

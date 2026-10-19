@@ -1,0 +1,66 @@
+{
+  "intent": "declaration_prep",
+  "fop_group": 3,
+  "vat_payer": false,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [
+    {
+      "date": "2026-07-10",
+      "amount": 80000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ТОВ «Альфа Софт», рахунок №12"
+    },
+    {
+      "date": "2026-08-05",
+      "amount": 70000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ТОВ «Бета Медіа»"
+    },
+    {
+      "date": "2026-08-15",
+      "amount": 1000.0,
+      "currency": "USD",
+      "direction": "incoming",
+      "counterparty_type": "client_nonresident",
+      "description": "Acme Inc. (США), розробка"
+    },
+    {
+      "date": "2026-09-12",
+      "amount": 50000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "ФОП Коваленко"
+    },
+    {
+      "date": "2026-08-20",
+      "amount": 20000.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "own_account",
+      "description": "переказ власних коштів з картки"
+    },
+    {
+      "date": "2026-09-03",
+      "amount": 5000.0,
+      "currency": "UAH",
+      "direction": "outgoing",
+      "counterparty_type": "client_resident",
+      "description": "повернення частини авансу ТОВ «Альфа Софт»"
+    }
+  ],
+  "topics": [
+    "declaration",
+    "tax_amount",
+    "deadlines"
+  ],
+  "language": "uk",
+  "missing_fields": []
+}

@@ -1,0 +1,32 @@
+{
+  "intent": "tax_question",
+  "fop_group": 3,
+  "vat_payer": null,
+  "period": {
+    "year": 2026,
+    "quarter": 3
+  },
+  "transactions": [
+    {
+      "date": "2026-09-30",
+      "amount": 2500.0,
+      "currency": "EUR",
+      "direction": "incoming",
+      "counterparty_type": "client_nonresident",
+      "description": "клієнт з Польщі"
+    },
+    {
+      "date": "2026-10-02",
+      "amount": 1250.0,
+      "currency": "EUR",
+      "direction": "outgoing",
+      "counterparty_type": "bank",
+      "description": "продаж половини валюти"
+    }
+  ],
+  "topics": [
+    "currency"
+  ],
+  "language": "en",
+  "missing_fields": []
+}

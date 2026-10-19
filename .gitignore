@@ -8,8 +8,9 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# Real data (personal / large) — never commit
-data/
+# Real data (personal / large) — never commit.
+# data/texts and data/golden are synthetic and must be committed.
+data/private/
 *.pdf
 
 # OS / editors

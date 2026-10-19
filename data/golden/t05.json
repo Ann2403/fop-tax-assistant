@@ -1,0 +1,19 @@
+{
+  "intent": "documents",
+  "fop_group": 3,
+  "vat_payer": false,
+  "period": null,
+  "transactions": [
+    {
+      "date": "2026-10-01",
+      "amount": 18500.0,
+      "currency": "UAH",
+      "direction": "incoming",
+      "counterparty_type": "client_resident",
+      "description": "оплата рахунку №03-17, ТОВ «Дельта Лоджистик»"
+    }
+  ],
+  "topics": [],
+  "language": "uk",
+  "missing_fields": []
+}

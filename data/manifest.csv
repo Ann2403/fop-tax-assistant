@@ -1,0 +1,31 @@
+id,received_at,channel,chars,golden,traits
+t01,2026-10-05,email,588,True,long; several transactions; own-account transfer; refund
+t02,2026-10-14,telegram,84,False,short; no punctuation
+t03,2026-09-02,telegram,177,True,russian; group restriction; no amounts
+t04,2026-10-08,email,226,True,english; currency income; currency sale
+t05,2026-10-03,photo_ocr,452,True,"OCR noise (О instead of 0, З instead of 3); invoice table"
+t06,2026-10-16,telegram,113,False,short; PRRO
+t07,2026-10-11,email,467,True,ambiguous loan repayment; several transactions
+t08,2026-10-12,telegram,130,True,surzhyk; aggregate income is not a transaction
+t09,2026-10-01,email,137,True,out of scope
+t10,2026-10-07,voice_to_text,254,False,mixed uk/ru; no punctuation; missing dates and group
+t11,2026-10-15,telegram,16,True,minimal text; missing group
+t12,2026-09-25,email,487,False,russian; long; group change
+t13,2026-10-09,telegram,129,False,foreign currency; bank fee
+t14,2026-10-02,email,305,False,forwarded bank notification; period boundary
+t15,2026-10-10,telegram,115,False,typos; group restriction (excise goods)
+t16,2026-10-13,telegram,226,True,several currencies; slang; platform commission
+t17,2026-10-04,email,134,False,documents; no question
+t18,2026-10-17,telegram,119,False,transfers from relatives; ambiguous period; no dates
+t19,2026-09-18,email,335,False,long; several payment methods; PRRO
+t20,2026-10-18,telegram,84,False,out of scope (software advice)
+t21,2026-10-06,email,123,False,russian; deadline
+t22,2026-10-02,photo_ocr,425,False,OCR of a service act; no payment date
+t23,2026-10-11,telegram,130,False,employment + FOP; ESV
+t24,2026-08-12,email,196,False,missed deadline; aggregate income
+t25,2026-10-15,telegram,132,False,prompt injection; placeholder company name
+t26,2026-10-09,email,1162,False,very long thread; quoted history; signature and disclaimer
+t27,2026-10-16,telegram,22,False,trivial reply
+t28,2026-10-14,email,139,False,group 1; limit
+t29,2026-10-18,telegram,87,True,russian; relative date (вчера)
+t30,2026-10-13,telegram,186,False,emotional; caps; tax debt dispute

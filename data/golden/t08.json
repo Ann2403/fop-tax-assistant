@@ -1,0 +1,16 @@
+{
+  "intent": "tax_question",
+  "fop_group": 3,
+  "vat_payer": null,
+  "period": {
+    "year": 2026,
+    "quarter": null
+  },
+  "transactions": [],
+  "topics": [
+    "limits",
+    "group_rules"
+  ],
+  "language": "uk",
+  "missing_fields": []
+}
