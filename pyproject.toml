@@ -1,0 +1,17 @@
+[project]
+name = "fop-tax-assistant"
+version = "0.1.0"
+description = "AI-асистент для ФОП 3 групи: податкові питання з джерелами і чернетка декларації"
+readme = "README.md"
+authors = [
+    { name = "Ann2403", email = "zubenko.job@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+fop-tax-assistant = "fop_tax_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
